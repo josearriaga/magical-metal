@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+  }
+  
+  .landing-page {
+    position: relative;
+  }
+  
+  .hero-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .logo {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    opacity: 0;
+    animation: fadeIn 8s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
