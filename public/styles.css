@@ -10,7 +10,10 @@ body {
   }
   
   .landing-page {
-    position: relative;
+    background: url('/backgroundimage.JPG') no-repeat center center;
+    background-size: cover; /* Ensures the image fits without distortion */
+    width: 100vw;
+    height: 100vh;  
   }
   
   .hero-image {
